@@ -220,25 +220,19 @@
 }
 
 .email-input {
+  width: 230px;
+  height: 39px;
   color: var(--greytxt-color);
   text-align: center;
   font-family: var(--description-font);
   font-size: 14px;
-  font-style: italic;
   font-weight: 300;
   line-height: normal;
 }
 
 .email-input::placeholder {
   color: var(--greytxt-color);
-  text-align: center;
-  font-family: var(--description-font);
-  font-size: 14px;
-  font-style: italic;
-  font-weight: 300;
-  line-height: normal;
-  padding: 12px 145px 11px 10px;
-  
+  /* padding: 12px 145px 11px 10px; */
 }
 
 .blue-button {
