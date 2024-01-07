@@ -164,6 +164,7 @@
 }
 
 .team {
+  margin-top: 17px;
   width: 1210px;
 }
 
@@ -223,19 +224,23 @@
   width: 230px;
   height: 39px;
   color: var(--greytxt-color);
-  text-align: center;
   font-family: var(--description-font);
   font-size: 14px;
   font-weight: 300;
   line-height: normal;
+  border: 1px solid var(--greytxt-color);
+  border-right: none;
 }
 
 .email-input::placeholder {
   color: var(--greytxt-color);
-  /* padding: 12px 145px 11px 10px; */
+  font-style: italic;
+  padding: 12px 145px 11px 10px;
 }
 
 .blue-button {
+  width: 150px;
+  height: 40px;
   background-color: var(--mogo-color);
   color: var(--fbuttontxt-color);
   text-align: center;
