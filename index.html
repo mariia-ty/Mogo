@@ -41,21 +41,36 @@
     />
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-  />
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
   </head>
   <body>
     <div class="container">
       <header class="header">
-        <a href="index.html" class="logo animate__animated animate__tada animate__repeat-3"> MoGo</a>
+        <a
+          href="index.html"
+          class="logo animate__animated animate__tada animate__repeat-3"
+        >
+          MoGo</a
+        >
         <nav>
           <ul class="nav-list">
-            <li class="nav-item jello-diagonal-1"><a class="link " href="#">ABOUT</a></li>
-            <li class="nav-item jello-diagonal-1"><a class="link" href="#">SERVICE</a></li>
-            <li class="nav-item jello-diagonal-1"><a class="link" href="#">BLOG</a></li>
-            <li class="nav-item jello-diagonal-1"><a class="link" href="#">CONTACT</a></li>
-            <li class="nav-item jello-diagonal-1"><a class="link" href="#">WORK</a></li>
+            <li class="nav-item jello-diagonal-1">
+              <a class="link" href="#">ABOUT</a>
+            </li>
+            <li class="nav-item jello-diagonal-1">
+              <a class="link" href="#">SERVICE</a>
+            </li>
+            <li class="nav-item jello-diagonal-1">
+              <a class="link" href="#">BLOG</a>
+            </li>
+            <li class="nav-item jello-diagonal-1">
+              <a class="link" href="#">CONTACT</a>
+            </li>
+            <li class="nav-item jello-diagonal-1">
+              <a class="link" href="#">WORK</a>
+            </li>
           </ul>
         </nav>
       </header>
@@ -176,36 +191,90 @@
       <section class="team" data-aos="zoom-in">
         <ul class="team-list">
           <li class="members">
-            <img
-              width="380"
-              height="470"
-              src="./images/first-man.jpg"
-              alt="Matthew Dix"
-            />
+            <picture>
+              <source
+                srcset="./images/matthew@1x.jpg"
+                media="(max-width: 480px)"
+              />
+              <source
+                srcset="./images/matthew@2x.jpg"
+                media="(max-width: 768px)"
+              />
+              <source
+                srcset="./images/matthew@3x.jpg"
+                media="(max-width: 1200px)"
+              />
+              <source
+                srcset="./images/matthew@4x.jpg"
+                media="(min-width: 1920px)"
+              />
+              <img
+                width="380"
+                height="470"
+                src="./images/matthew@1x.jpg"
+                alt="Matthew"
+              />
+            </picture>
             <h3 class="name">Matthew Dix</h3>
             <p class="position">
               <i>Graphic Design</i>
             </p>
           </li>
           <li class="members">
-            <img
-              width="380"
-              height="470"
-              src="./images/second-man.jpg"
-              alt="Christopher Campbell"
-            />
+            <picture>
+              <source
+                srcset="./images/christopher@1x.jpg"
+                media="(max-width: 480px)"
+              />
+              <source
+                srcset="./images/christopher@2x.jpg"
+                media="(max-width: 768px)"
+              />
+              <source
+                srcset="./images/christopher@3x.jpg"
+                media="(max-width: 1200px)"
+              />
+              <source
+                srcset="./images/christopher@4x.jpg"
+                media="(min-width: 1920px)"
+              />
+              <img
+                width="380"
+                height="470"
+                src="./images/christopher@1x.jpg"
+                alt="christopher"
+              />
+            </picture>
             <h3 class="name">Christopher Campbell</h3>
             <p class="position">
               <i>Branding/UX design</i>
             </p>
           </li>
           <li class="members">
-            <img
-              width="380"
-              height="470"
-              src="./images/third-man.jpg"
-              alt="Michael Fertig "
-            />
+            <picture>
+              <source
+                srcset="./images/michael@1x.jpg"
+                media="(max-width: 480px)"
+              />
+              <source
+                srcset="./images/michael@2x.jpg"
+                media="(max-width: 768px)"
+              />
+              <source
+                srcset="./images/michael@3x.jpg"
+                media="(max-width: 1200px)"
+              />
+              <source
+                srcset="./images/michael@4x.jpg"
+                media="(min-width: 1920px)"
+              />
+              <img
+                width="380"
+                height="470"
+                src="./images/michael@1x.jpg"
+                alt="Michael"
+              />
+            </picture>
             <h3 class="name">Michael Fertig</h3>
             <p class="position">
               <i>Developer</i>
@@ -232,6 +301,5 @@
     <script>
       AOS.init();
     </script>
-    
   </body>
 </html>
